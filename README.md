@@ -1,7 +1,5 @@
 # Student Data Manager
 
-Simple mini project to learn CRUD (create, read, update, delete).
-
 ## Project Overview
 
 A simple CRUD (Create, Read, Update, Delete) terminal application built using Python.
@@ -11,9 +9,8 @@ This program allows users to:
 - Display all students
 - Update student information
 - Delete student data
-
-The project currently stores data temporarily using Python lists and dictionaries.  
-JSON file saving/loading will be added in the next update.
+- Automatically save student data to a JSON file
+- Automatically load saved student data at startup
 
 ---
 
@@ -37,7 +34,7 @@ Add a new student with:
 ---
 
 ### Read Student Data
-Display all student data stored in memory.
+Display all student data stored in the JSON file
 
 ---
 
@@ -57,12 +54,17 @@ Delete student data using student ID.
 
 ## Concepts Learned
 
+## Concepts Learned
+
 - CRUD operations
 - Python functions
 - Lists and dictionaries
 - Looping
 - Conditional statements
 - Error handling with try-except
+- JSON file handling
+- File read and write operations
+- Data persistence
 - Data manipulation
 - Basic terminal application structure
 
@@ -88,17 +90,16 @@ Delete student data using student ID.
 ✅ Read student data
 ✅ Update student data
 ✅ Delete student data
-⏳ Save data to JSON file (in progress)
-⏳ Load data from JSON file (planned)
+⏳ Save data to JSON file (completed)
+⏳ Load data from JSON file (completed)
 
 ---
 
 ## Future Improvements
 
-* Save data automatically to JSON
-* Load saved student data when program starts
 * Search student by ID
 * Better validation system
+* Improve ID generation system
 * Improve menu interface
 
 ---
