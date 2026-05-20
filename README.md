@@ -122,3 +122,7 @@ The purpose of this project is to practice:
 * CRUD system fundamentals
 * Preparing for database and backend concepts
 * Building problem-solving skills for data engineering
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
